@@ -13,7 +13,7 @@
     <title>Olivia Ros</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 
@@ -28,7 +28,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-2 fs-5">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-2 fs-5"> 
                     <li class="nav-item">
                         <a class="nav-link" href="#">Acerca de mi</a>
                     </li>
@@ -47,16 +47,15 @@
 
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
         <div class="container">
-            <div class="ms-auto col-12 col-md-7">
-                <h1 class="display-1 fw-bold my-5">
-                    Comidas del fin <br> del Mundo.
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-2 fw-bold my-5">
+                   Comidas del fin <br> del Mundo.
                 </h1>
-                <p class="my-5 fw-bold">
+                <p class="my-5 fw-bold fst-italic"> 
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
                     dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
                     mollitia inventore provident labore voluptatum nemo.
                 </p>
-                
                 <div class="mb-5 pb-5">
                     <button class="btn btn-lg btn-outline-info text-light fw-bold me-4">Trabajos</button>
                     <button class="btn btn-lg btn-success text-light fw-bold">Contacto</button>
@@ -127,8 +126,9 @@
                             Explicabo iure sint, perspiciatis distinctio molestias nihil
                             repudiandae neque rem adipisci repellendus libero illo quo
                             blanditiis, velit quasi ad, recusandae voluptates officia.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
+                        <button type="button" class="btn btn-outline-warning fw-bold">
                             Ver más
                         </button>
                     </div>
@@ -145,7 +145,7 @@
                             consequatur quos error fuga excepturi quo. Laudantium optio
                             pariatur laboriosam modi, ea molestias?
                         </p>
-                        <button type="button" class="btn btn-outline-info">
+                        <button type="button" class="btn btn-outline-warning fw-bold">
                             Ver más
                         </button>
                     </div>
@@ -162,7 +162,7 @@
                             corporis facilis qui architecto dolor, accusamus eveniet
                             exercitationem fugit. Quod autem neque ducimus.
                         </p>
-                        <button type="button" class="btn btn-outline-info">
+                        <button type="button" class="btn btn-outline-warning fw-bold">
                             Ver más
                         </button>
                     </div>
@@ -176,37 +176,40 @@
 
     <section id="Contacto" class="container my-5">
 
-        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+        *<h2 class="display-4 fw-bold text-center my-4 bg-warning">Contácteme</h2>
 
-        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Doloribus
-            sapiente, autem delectus totam expedita
-            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
-            tempora quaerat?</p>
+        <p class="text-center my-4 d-none d-md-block fst-italic">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus sapiente, autem delectus totam expedita animi corporis dolorem qui magnam, spernatur officiis quasi culpa tempora est commodi. Voluptate beatae tempora quaerat? </p>
 
-        <form>
+        <form class="form">
+
+
             <div class="form-group mb-4">
                 <label class="mb-2 fs-4">Nombre</label>
-                <input class="form-control" placeholder="Ingrese su Nombre y apellido">
+                <input class="form-control" placeholder="Ingrese su Nombre y Apellidos">
             </div>
 
-            <div class="form-group mb-4 fs-4">
-                <label class="mb-2">Correo electrónico</label>
-                <input class="form-control" placeholder="Ingrese su e-Mail"/>
+            <div class="form-group mb-4">
+                <label class="mb-2 fs-4">Correo electrónico</label>
+                <input class="form-control" placeholder="Ingrese su e-Mail" />
             </div>
 
 
             <div class="form-group">
-                <label class="mb-2 fs-4 ">Mensaje</label>
+                <label class="mb-2 fs-4">Mensaje</label>
                 <textarea class="form-control" placeholder="Escriba aquí su mensaje"></textarea>
             </div>
 
-            <div class="my-3 text-end">
-                <button class="btn btn-success fw-bold">Enviar</button>
+            <div class="my-3 text-center bg-warning">
+               <button class="btn btn-success fw-bold">Enviar</button>
             </div>
+
+
+
         </form>
 
     </section>
+
+
 
     <footer class="bg-dark text-center text-light p-4">
         <p class="mb-0">Olivia Ros 2019. Todos los derechos reservados.</p>
